@@ -1,0 +1,19 @@
+# dbuild configuration file
+# Full reference: https://github.com/daemonless/dbuild
+
+icon: ':material-texture-box:'
+build:
+  # Static site on nginx: nothing arch-specific is fetched
+  architectures:
+    - amd64
+    - aarch64
+  variants:
+    - tag: latest
+      containerfile: Containerfile
+
+cit:
+  mode: health
+  port: 80
+  health: /
+  # nginx prints nothing at start; /init's exec line means it is up.
+  ready: "\\[init\\] Executing"
