@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-05T00:40:42Z",
+  "generated": "2026-11-05T08:17:58Z",
   "image": "texturecraft",
   "tags": {
     "latest-amd64": {
-      "app_version": "0.3.1",
+      "app_version": "0.3.2",
       "arch": "amd64",
-      "generated": "2026-11-05T00:39:59Z",
+      "generated": "2026-11-05T08:17:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
