@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-18T00:12:51Z",
+  "generated": "2026-11-24T11:19:38Z",
   "image": "texturecraft",
   "tags": {
     "latest-amd64": {
       "app_version": "0.6.1",
       "arch": "amd64",
-      "generated": "2026-11-18T00:12:00Z",
+      "generated": "2026-11-24T11:18:59Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -287,7 +287,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.2"
+            "version": "2.9.3"
           }
         ],
         "go": [],
